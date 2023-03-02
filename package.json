@@ -1,0 +1,19 @@
+{
+  "name": "test-runner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test --require ts-node/register src/sum.test.ts"
+  },
+  "author": "Gil",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.1", 
+    "ts-node": "10.9.1",
+    "typescript": "4.7.4"
+  }
+}
